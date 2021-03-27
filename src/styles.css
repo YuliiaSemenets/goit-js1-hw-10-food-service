@@ -140,7 +140,7 @@ body.dark-theme {
   flex-grow: 1;
 }
 
-.card__image {
+img {
   height: 300px;
   object-fit: cover;
   max-width: 100%;
