@@ -4,7 +4,9 @@ import galleryTemplate from '../templates/gallery.hbs';
 
 
 const gallerysRef = document.querySelector('.menu');
-const gallerysAllTemplate = gallerys.map(gallery => galleryTemplate(gallery)).join('');
+
+gallerysRef.insertAdjacentHTML('beforeend', galleryTemplate(gallerys));
+// const gallerysAllTemplate = gallerys.map(gallery => galleryTemplate(gallery)).join('');
 
 
-gallerysRef.innerHTML = gallerysAllTemplate;
+// gallerysRef.innerHTML = gallerysAllTemplate;
